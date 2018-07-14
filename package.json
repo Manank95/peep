@@ -1,0 +1,25 @@
+{
+  "name": "peep",
+  "version": "1.0.0",
+  "description": "Peep Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manank_Valand",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "ical-generator": "^0.2.10",
+    "ical-toolkit": "^1.0.9",
+    "mongodb": "^3.0.7",
+    "node-fetch": "^2.1.2",
+    "npm": "^6.0.0",
+    "uuid": "^3.2.1"
+  }
+}

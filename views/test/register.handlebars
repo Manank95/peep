@@ -1,0 +1,44 @@
+<article>
+    <br/>
+    <div class="row">
+    <div class="col-sm-8">
+    <form id="login-form" method="POST" action="/register" onsubmit="checkPasswdInput()">
+        <div class="form-group">
+            <label class="lable" for="username">UserName: </label><br>
+            <input type="text" class="form-control" placeholder="Enter your Username" id="username" name="username" required/>
+        </div>
+        <div class="form-group">
+            <label class="lable" for="fname">First Name: </label><br>
+            <input type="text" class="form-control" placeholder="Enter your First Name" id="fname" name="fname" required/>
+        </div>
+        <div class="form-group">
+            <label class="lable" for="lname">Last Name: </label><br>
+            <input type="text" class="form-control" placeholder="Enter your Last name" id="lname" name="lname" required/>
+        </div>
+        <div class="form-group">
+            <label class="lable" for="email">Email: </label><br>
+            <input type="email" class="form-control" placeholder="Enter your email-id" id="email" name="email" required/>
+        </div>
+        <div class="form-group">
+            <label class="lable" for="password">Password: </label><br>
+            <input id="passwd1" type="password" class="form-control" placeholder="Enter your Password" id="password" name="password" required/>
+        </div>
+        <div class="form-group">
+            <label class="lable" for="repassword">Re-type Password: </label><br>
+            <input id="passwd2" type="password" class="form-control" placeholder="Re-type the Password" id="repassword" name="repassword" required/>
+        </div>
+        <div class="row">
+            <div class="form-group col-3">
+                <button type="submit" class="btn btn-primary">Sign Up</button>            
+            </div>
+            <div class="form-group col-4">
+                <a href="/" class="btn btn-outline-primary">Already did? Login!</a>
+            </div>
+            </div>
+        {{{info}}}
+    </form>
+    </div>
+    </div>
+    <br/>
+    <hr>
+</article>

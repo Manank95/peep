@@ -1,0 +1,32 @@
+<article>
+    <br/>
+    <div class="row">
+    <div class="col-8">
+        <br/>   
+        <form id="login-form" method="POST" action="/login">
+            <div class="form-group col-6">
+                <label class="lable" for="username">UserName: </label><br>
+                <input type="text" class="form-control" placeholder="Enter your Username" id="username" name="username" required/>
+            </div>
+            <div class="form-group col-6">
+                <label class="lable" for="password">Password: </label><br>
+                <input type="password" class="form-control" placeholder="Enter your Password" id="password" name="password" required/>
+            </div>
+            <div class="row">
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="form-group col-3">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <div class="form-group col-4">
+                    <a href="/signup" class="btn btn-outline-primary">No account? Signup!</a>
+                </div>
+            </div>
+            
+            {{{info}}}
+        </form>
+    </div>
+    </div>
+    </article>
+    <br/>
+    <hr>
+</article>
